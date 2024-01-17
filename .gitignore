@@ -6,7 +6,7 @@ dist/
 
 # vscode folder
 
-.vscode/
+.vscode
 
 # dependencies
 node_modules/
