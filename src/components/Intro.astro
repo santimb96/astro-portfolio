@@ -1,0 +1,21 @@
+---
+import Availability from "./Availability.astro"
+import ButtonLink from "./ButtonLink.astro"
+import GitHub from "./GitHub.astro"
+import LinkedIn from "./LinkedIn.astro"
+---
+<section class="mt-10 w-full">
+  <div class="flex flex-row gap-8 items-center">
+    <h1 class="text-balance text-3xl md:text-4xl lg:text-5xl font-bold col-span-2">Santi, ¡encantado!</h1>
+    <Availability />
+  </div>
+  <p class="mt-4 text-lg md:text-xl lg:text-2xl text-pretty md:max-w-[50ch]"><span class="font-bold text-fuchsia-300/70">+4 años de experiencia</span> diseñando y desarrollando apps web, tanto a título personal como en entornos de trabajo corporativo</p>
+  <div class="flex flex-row flex-wrap items-center mt-4 gap-4">
+    <ButtonLink link="https://github.com/santimb96" name="GitHub">
+      <GitHub color="dark:text-blue-400 border" hover="hover:text-blue-800" slot="icon" />
+    </ButtonLink>
+    <ButtonLink link="https://www.linkedin.com/in/santi-martinez-bota/" name="LinkedIn">
+      <LinkedIn  color="dark:text-blue-400 border" hover="hover:text-blue-800" slot="icon" />
+    </ButtonLink>
+  </div>
+</section>

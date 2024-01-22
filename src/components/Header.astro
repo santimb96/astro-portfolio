@@ -1,15 +1,21 @@
-<header class=" h-[10vh] flex justify-center items-center">
-  <nav class="flex flex-row gap-4">
-    <span>
+---
+import Avatar from "./Avatar.astro";
+---
+<header class="flex justify-center items-center gap-11 sticky bg-slate-950/70 backdrop-blur-md mt-5 rounded-2xl text-sm md:text-sm w-min whitespace-nowrap">
+  <!-- <a class="hidden xl:block" href="#">
+    <Avatar avatar="assets/male-avatar.gif" alt="male avatar gif" />
+  </a> -->
+  <nav class="flex flex-row gap-2 md:gap-4 p-2">
+    <span class="hover:bg-slate-800/70 py-0.5 px-1.5 md:py-2 md:px-4 rounded-3xl transition ease-in-out duration-100 font-medium md:text-lg">
       <a href="#experiencia">Experiencia</a>
     </span>
-    <span>
+    <span class="hover:bg-slate-800/70 py-0.5 px-1.5 md:py-2 md:px-4 rounded-3xl transition ease-in-out duration-100 font-medium md:text-lg">
       <a href="#proyectos">Proyectos</a>
     </span>
-    <span>
+    <span class="hover:bg-slate-800/70 py-0.5 px-1.5 md:py-2 md:px-4 rounded-3xl transition ease-in-out duration-100 font-medium md:text-lg">
       <a href="#formacion">Formación</a>
     </span>
-    <span>
+    <span class="hover:bg-slate-800/70 py-0.5 px-1.5 md:py-2 md:px-4 rounded-3xl transition ease-in-out duration-100 font-medium md:text-lg">
       <a href="#sobreMi">Sobre mí</a>
     </span>
   </nav>

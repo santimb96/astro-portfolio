@@ -1,0 +1,9 @@
+---
+interface Props {
+  avatar: string,
+  alt: string
+}
+const { avatar, alt } = Astro.props
+---
+
+<img class="w-8 rounded-full" src={avatar} alt={alt}>
